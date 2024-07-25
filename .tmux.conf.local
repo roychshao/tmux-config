@@ -449,13 +449,10 @@ tmux_conf_uninstall_plugins_on_reload=true
 
 # List of plugins
 set -g @tpm_plugins '          \
-  tmux-plugins/tmux-resurrect  \
   egel/tmux-gruvbox            \
 '
 
 set -g @tmux-gruvbox 'dark'
-set -g @plugin 'tmux-plugins/tmux-battery'
-set -g @treemux-tree-nvim-init-file '~/.tmux/plugins/treemux/configs/treemux_init.lua'
-set -g @plugin 'kiyoon/treemux'
+set -g @treemux-tree-nvim-init-file '~/.tmux/treemux_gruvbox.lua'
 set -g @treemux-tree 's'
-set -g @treemux-tree-nvim-init-file '~/.tmux/plugins/treemux/configs/gruvbox_theme.lua'
+set -g @plugin 'kiyoon/treemux'
